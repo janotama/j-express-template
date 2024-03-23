@@ -1,0 +1,3 @@
+[submodule "src/packages/j-auth"]
+    path = src/packages/j-auth
+    url = https://github.com/janotama/j-auth
