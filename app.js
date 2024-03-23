@@ -7,6 +7,8 @@ require("dotenv").config();
 // Import routes
 const routes = require("./src/routes");
 
+app.use(express.json());
+
 // Use routes
 app.use("/api/v1", routes);
 
